@@ -10,6 +10,7 @@
     },
     "dependencies": {
         "@prisma/client": "^4.15.0",
+        "@tanstack/react-query": "^4.29.19",
         "autoprefixer": "10.4.14",
         "bufferutil": "^4.0.7",
         "eslint": "8.43.0",
@@ -20,6 +21,7 @@
         "postcss": "8.4.24",
         "react": "18.2.0",
         "react-dom": "18.2.0",
+        "react-intersection-observer": "^9.5.2",
         "sass": "^1.63.4",
         "socket.io": "^4.6.2",
         "socket.io-client": "^4.6.2",
