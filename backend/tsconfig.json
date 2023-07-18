@@ -1,21 +1,25 @@
 {
     "compilerOptions": {
+        "module": "ESNext",
         "target": "ESNext",
-        "module": "NodeNext",
         "moduleResolution": "NodeNext",
         "allowImportingTsExtensions": true,
-        "typeRoots": ["../types"]
+        "noEmit": true,
+        "typeRoots": ["../types"],
+        "baseUrl": ".",
+        // "outDir": "/out"
         // "sourceMap": true,
-        // "rootDir": "./src"
-        // "esModuleInterop": true,
+        "rootDir": "src",
+        "esModuleInterop": true,
         // "forceConsistentCasingInFileNames": true,
+        "skipLibCheck": true
         // "strict": false,
-        // "skipLibCheck": true
     },
-    // "include": ["src/**/*"],
-    // "exclude": ["node_modules"],
+    "include": ["src/**/*"],
+    "exclude": ["node_modules"],
     "ts-node": {
-        "transpileOnly": true
+        "transpileOnly": true,
+        // "files": true,
         // "esm": true,
         // "experimentalSpecifierResolution": "node"
     }
