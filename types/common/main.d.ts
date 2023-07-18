@@ -6,11 +6,10 @@ interface userObj {
 }
 
 interface itemObj {
-    id?: string;
     name: string;
     uploadedAt: number;
     lastModified: number;
     price: number;
     age: number;
-    author?: any;
+    userId: any;
 }
